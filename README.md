@@ -75,15 +75,15 @@ Before and through the creation or deletion of records, the application will sho
 
 ## Tools, Libraries and Technologies used 📚
 
--C# ASP.NET/ADO.NET 7.0v
+- C# ASP.NET/ADO.NET 7.0v
 - MSSQL server management
 - Stored Procedures
 - MVC design pattern
--RESTful APIs
--JavaScript, jQuery
+- RESTful APIs
+- JavaScript, jQuery
 - Sweet alerts
--Bootstrap 5.1v
--HTML, CSS
+- Bootstrap 5.1v
+- HTML, CSS
 
 ## History of the project 📖
 
