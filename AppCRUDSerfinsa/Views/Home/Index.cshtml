@@ -1,0 +1,92 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Cuerpo de la tabla principal -->
+<div class="row justify-content-center">
+    <div class="col-10">
+        <div class="alert alert-warning" role="alert">
+            Crud Empleados
+        </div>
+
+        <button type="button" class="btn btn-success btn-sm boton-nuevo-empleado">Nuevo Empleado</button>
+
+        <table class="table table-striped" id="tablaEmpleados">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Edad</th>
+                    <th>Direccion</th>
+                    <th>Telefono</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            </tbody>
+
+        </table>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="modalEmpleado" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Gestion de Empleados</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="mb-3">
+                    <label class="form-label">Codigo</label>
+                    <input type="text" readonly class="form-control" id="txtidEmpleado" autocomplete="off">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Nombres</label>
+                    <input required type="text" class="form-control" id="txtNombre" autocomplete="off">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Apellidos</label>
+                    <input required type="text" class="form-control" id="txtApellido" autocomplete="off">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Edad</label>
+                    <input type="text" class="form-control" id="txtedad" autocomplete="off">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Direccion</label>
+                    <input required type="text" class="form-control" id="txtDireccion" autocomplete="off">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Telefono</label>
+                    <input required type="text" class="form-control" id="txtTelefono" autocomplete="off">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input required type="text" class="form-control" id="txtemail" autocomplete="off">
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary boton-guardar-cambios-empleado">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/js/index.js"></script>
+}
