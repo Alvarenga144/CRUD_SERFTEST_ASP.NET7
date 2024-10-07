@@ -1,91 +1,58 @@
-# GESTOR DE EMPLEADOS / EMPLOYEES MANAGEMENT 🫡
+# Employees Management 🫡
+## Description
 
-Registra a los empleados de tu empresa con su información personal, Lee, Guarda, Edita y Elimina registros. Ten la gestión completa a la base de datos de manera segura y persistente. 
+This is a web application to manage the employees of your company. You can register employees with their personal information, read, save, edit, and delete records, ensuring complete and secure management of the database in a persistent manner.
 
 <img src="./Assets/AppCRUDSerfinsa.gif" />
 
-## Instalación ⬇️
+## Features
 
-**Requisitos👮🏻‍♂️**
+- Add new employees with personal details.
+- Edit existing employee records.
+- Delete employee records.
+- Alerts for record creation, deletion, and other important actions.
+- Secure and persistent database management.
 
-- Debes tener instalado en tu computadora Visual Studio, en cualquiera de sus versiones.
-- Microsoft SQL Server Management, es necesario para poder crear nuestra base de datos creada y acceder a nuestro servidor local.
+# Installation ⬇️
+## Requirements 👮🏻‍♂️
 
-**Pasos🚶🏻‍♂️**
+- Visual Studio (any version) installed on your computer.
+- Microsoft SQL Server Management to create and manage the database and access your local server.
 
-- Descarga el código en tu computadora o has un fork al repositorio 💻
-- Coloca el proyecto en la carpeta de tu preferencia ✅
-- Inicia Visual Studio, selecciona "Abrir proyecto" y ve a buscar la carpeta del proyecto en la ubicación donde lo colocaste anteriormente 📁
-- Revisa que se hayan abierto correctamente 🧐
-- Ejecuta el proyecto dando 'click' en el botón verde 'Ejecutar'/'http' ▶️ y espera a que Visual Studio inicie el servidor local, y despliegue el proyecto en el navegador 📉 
+## Steps 🚶🏻‍♂️
 
-Ahora podrás ver la aplicación y comenzar a usarlo.
+    - Download or fork the repository to your computer.
+    - Place the project in a folder of your preference. ✅
+    - Open Visual Studio, select "Open Project" and navigate to the folder where you saved the project. 📁
+    - Verify that the solution opens correctly in Visual Studio. 🧐
+    - Run the project by clicking the green 'Run' button (▶️) or the 'http' button, and wait for Visual Studio to start the local server. You can now use the project in your browser. 📉
 
-## Flujo de trabajo ▶️🔄
-
-En nuestra página principal, tendrás una tabla con los registros existentes, o sin registros en caso de no tener ninguno agregado en la base de datos aún. Empieza dando 'click' al botón 'Nuevo Empleado'. Se desplegará una ventana modal, donde deberás completar los campos con la información del empleado que está por crearse. Cuando completes la información, ve al botón 'Guardar'.
-Cuando finalmente tengas tu empleado registrado, a la derecha tendrás botones de accion, mediante los cuales puedes editar la información del usuario, o eliminarlo de ser necesario.
-Al antes y mediante la creación o eliminación de registros, la aplicación te mostrará alertas, para que puedas verificar si la acción se ha cumplido.
-
-## Herramientas, Librerias y Tecnologías usadas 📚
-
-- C# ASP.NET / ADO.NET 7.0v
-- MSSQL Server Management
-- Procedimientos Almacenados
-- Patrón de diseño MVC
-- RESTful API
-- JavaScript, jQuery
-- Sweet Alerts
-- Bootstrap 5.1v
-- HTML, CSS
-
-## Historia del proyecto 📖
-
-Este proyecto es una prueba técnica que desarrollé para la empresa SERFINSA El Salvador. Para trabajar con ellos como Desarrollador Junior. La prueba la logré exitosamente en el tiempo requerido. Era necesario desarrollar la prueba usando C# .NET y MVC 💻
-La prueba únicamente solicitó hacer el mantenimiento completo a la base de datos (CRUD) y quedó de manera opcional la manera de resolverla, las librerías y el estilo de la interfaz era opcional.
-
-<hr />
-
-## English
-
-Register the employees of your company with their personal information, Read, Save, Edit and Delete records. Have complete management of the database in a secure and persistent manner.
-
-## Installation ⬇️
-
-**Requirements👮🏻‍♂️**
-
-- You must have Visual Studio installed on your computer, in any of its versions.
-- Microsoft SQL Server Management, it is necessary to be able to create our database created and access our local server.
-
-**Steps🚶🏻‍♂️**
-
-- Download the code on your computer or fork the repository 💻
-- Place the project in the folder of your preference ✅
-- Launch Visual Studio, select "Open Project" and go find the project folder in the location where you previously placed it 📁
-- Check that they have been opened correctly 🧐
-- Run the project by 'clicking' on the green 'Run'/'http' button ▶️ and wait for Visual Studio to start the local server, and use the project in the browser 📉
-
-Now you can see the application and start using it.
+Now you're ready to see the application and start using it.
 
 ## Workflow ▶️🔄
 
-On our home page, you will have a table with existing records, or no records in case none have been added to the database yet. Start by 'clicking' the 'New Employee' button. A modal window will be displayed, where you must complete the fields with the information of the employee that is about to be created. When you complete the information, go to the 'Save' button.
-When you finally have your employee registered, on the right you will have action buttons, through which you can edit the user's information, or delete it if necessary.
-Before and through the creation or deletion of records, the application will show you alerts, so you can verify if the action has been fulfilled.
+On the home page, you'll see a table with the existing employee records, or none if no records have been added yet. To add a new employee:
 
-## Tools, Libraries and Technologies used 📚
+- Click the "New Employee" button.
+- A modal window will appear, where you can enter the employee’s information.
+- After filling in the details, click the "Save" button to register the employee.
 
-- C# ASP.NET/ADO.NET 7.0v
-- MSSQL server management
+Once an employee is registered, action buttons appear to the right of each record, allowing you to edit or delete the employee. The application will show alerts confirming that actions like creation or deletion have been successful.
+Tools, Libraries, and Technologies 📚
+
+- C# ASP.NET (ADO.NET 7.0)
+- Microsoft SQL Server Management
 - Stored Procedures
-- MVC design pattern
+- MVC Design Pattern
 - RESTful APIs
 - JavaScript, jQuery
-- Sweet alerts
-- Bootstrap 5.1v
+- SweetAlert
+- Bootstrap 5.1
 - HTML, CSS
 
-## History of the project 📖
+## Project History 📖
 
-This project is a technical test that I developed for the company SERFINSA El Salvador. To work with them as a Junior Developer. I successfully completed the test in the required time. It was necessary to develop the test using C# .NET and MVC 💻
-The test only requested full maintenance of the database (CRUD) and the way to resolve it, the libraries and the style of the interface were optional.
+This project was developed as part of a technical test for SERFINSA El Salvador for a Junior Developer position. The objective was to implement full CRUD operations (Create, Read, Update, Delete) on the database using C# .NET and MVC. The choice of libraries, style, and interface design was left to my discretion, and I successfully completed the project within the required time frame. 💻
+License
+
+MIT License
